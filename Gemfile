@@ -23,6 +23,8 @@ gem "simple_form"
 gem "title"
 gem "uglifier"
 gem "unicorn"
+gem 'bootstrap-sass', '~> 3.3.0'
+gem 'autoprefixer-rails'
 
 group :development do
   gem "spring"
