@@ -10,15 +10,41 @@
 </head>
 <body class="<%= body_class %>">
   <%= render "flashes" -%>
-  <%= yield %>
+  <div id="main-content">
+    <%= yield %>
+  </div>
   <%= render "javascript" %>
   <div data-role="footer" data-id="foo1" data-position="fixed">
     <div data-role="navbar">
       <ul>
-        <li><a href="#">Events</a></li>
-        <li><a href="#">Map</a></li>
-        <li><a href="#">Speakers</a></li>
-        <li><a href="#">More</a></li>
+        <li>
+          <a class="footer-tab" href="#">
+            <i class="fa fa-clock-o fa-2x"></i>
+            <br>
+            Events
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa fa-map-marker fa-2x"></i>
+            <br>
+            Map
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa fa-bullhorn fa-2x"></i>
+            <br>
+            Speakers
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa fa-ellipsis-h fa-2x"></i>
+            <br>
+            More
+          </a>
+        </li>
       </ul>
     </div><!-- /navbar -->
   </div><!-- /footer -->
