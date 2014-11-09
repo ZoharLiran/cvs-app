@@ -24,8 +24,9 @@ gem "title"
 gem "uglifier"
 gem "unicorn"
 gem 'bootstrap-sass', '~> 3.3.0'
-gem 'autoprefixer-rails'
-gem 'jquery_mobile_rails'
+gem "autoprefixer-rails"
+gem "jquery_mobile_rails"
+gem "font-awesome-rails"
 
 group :development do
   gem "spring"
