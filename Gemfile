@@ -51,7 +51,3 @@ group :test do
   gem "timecop"
   gem "webmock"
 end
-
-group :staging, :production do
-  gem 'rails_12factor'
-end
