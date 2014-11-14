@@ -28,6 +28,13 @@ module CvsApp
       generate.view_specs false
     end
 
+    config.assets.precompile += [
+      "fontawesome-webfont.ttf",
+      "fontawesome-webfont.eot",
+      "fontawesome-webfont.svg",
+      "fontawesome-webfont.woff"
+    ]
+
     config.action_controller.action_on_unpermitted_parameters = :raise
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
