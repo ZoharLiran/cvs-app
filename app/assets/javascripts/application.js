@@ -12,7 +12,8 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require_tree .
+//= require angular
+//= require angular-ui-bootstrap
 //= require bootstrap-sprockets
 //= require jquery.mobile
-//= require angular-ui-bootstrap
+//= require_tree .

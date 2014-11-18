@@ -28,6 +28,7 @@ gem "autoprefixer-rails"
 gem "jquery_mobile_rails"
 gem 'font-awesome-sass', '~> 4.2.0'
 gem 'angular-ui-bootstrap-rails'
+gem 'angularjs-rails'
 
 group :development do
   gem "spring"
