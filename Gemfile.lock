@@ -31,6 +31,7 @@ GEM
     airbrake (4.1.0)
       builder
       multi_json
+    angular-ui-bootstrap-rails (0.11.2)
     arel (5.0.1.20140414130214)
     autoprefixer-rails (3.1.2.20141016)
       execjs
@@ -240,6 +241,7 @@ PLATFORMS
 
 DEPENDENCIES
   airbrake
+  angular-ui-bootstrap-rails
   autoprefixer-rails
   awesome_print
   bootstrap-sass (~> 3.3.0)
