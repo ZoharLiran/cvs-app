@@ -1,1 +1,1 @@
-app = angular.module('Cvs', ["ui.bootstrap"]);
+app = angular.module('Cvs', ["mobile-angular-ui", "ui.bootstrap"]);
